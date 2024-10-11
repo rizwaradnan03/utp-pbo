@@ -1,0 +1,1 @@
+didalam folder lib merupakan file yang merepresentasi dari sebuah objek didalam class

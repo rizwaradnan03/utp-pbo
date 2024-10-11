@@ -1,0 +1,1 @@
+di bagian folder root / utama ini isinya hanya 1 file inti yaitu main.dart, file tersebut akan menjadi titik jalan utama nya aplikasi kita guys
