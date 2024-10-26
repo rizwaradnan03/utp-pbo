@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'Dokter.dart';
 import 'Pasien.dart';
 import 'Penjadwalan.dart';
