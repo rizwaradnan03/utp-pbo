@@ -1,17 +1,14 @@
-class Dokter {
-  String? nama;
-  int? NoHp;
+import 'Penjadwalan.dart';
+import 'Person.dart';
 
-  Dokter(String nama, int NoTelepon) {
-    this.nama = nama;
-    this.NoHp = NoTelepon;
-  }
-  void identitasDokter() {
-    print("NamaDokter $nama, Dengan NO HP $NoHp");
-  }
-}
+class Dokter extends Person {
+  String? spesialis;
+  List<Jadwal> list_praktek = [];
+  Dokter(String nama, int umur, this.spesialis) : super(nama, umur);
 
-void main() {
-  Dokter dokter1 = Dokter("Riswan M.BD", 087462454325);
-  dokter1.identitasDokter();
+  @override
+  void daftar() {
+    print('Dokter $nama terdaftar!');
+    
+  }
 }
